@@ -1,9 +1,7 @@
-/* .nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: blueviolet;
-    padding: 2.5rem;
-} */
+.nav {
+    background-color: black;
+    padding: 1.5rem;
+}
 
 .nav-item a {
     color: pink
