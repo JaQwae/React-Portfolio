@@ -1,8 +1,22 @@
 .nav {
-    background-color: var(--navy-color);
+    background-color: var(--pacific-line-color);
     padding: 1.5rem;
 }
 
 .nav-item a {
-    color: pink
+    color: var(--stepping-stone-color)
+}
+
+.nav-item a:hover {
+    color: aqua;
+}
+
+/*Color after link is clicked */
+.nav-item a:focus {
+    color: red
+}
+
+/*Color after link is clicked and user click on other elements of the page */
+.nav-link.active {
+    color: orange;
 }
