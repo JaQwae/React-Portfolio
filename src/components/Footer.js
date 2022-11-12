@@ -1,10 +1,10 @@
 import React from "react";
 import '../styles.css/Variables.css';
-// import style sheet for this component
+import '../styles.css/Footer.css';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <p> This is my footer</p>
         </footer>
     );
