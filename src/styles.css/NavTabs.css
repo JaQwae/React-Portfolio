@@ -1,3 +1,9 @@
+/* Effects background */
+div {
+    background-color: var(--rough-stone-color);
+    height: 50vh
+}
+
 .nav {
     background-color: var(--pacific-line-color);
     padding: 1.5rem;
@@ -8,15 +14,16 @@
 }
 
 .nav-item a:hover {
-    color: aqua;
+    color: var(--wheatField-color);
 }
 
 /*Color after link is clicked */
 .nav-item a:focus {
-    color: red
+    color: var(--neutral-valley-color);
 }
 
 /*Color after link is clicked and user click on other elements of the page */
 .nav-link.active {
-    color: orange;
+    color: var(--neutral-valley-color);
 }
+

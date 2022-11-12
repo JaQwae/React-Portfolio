@@ -1,0 +1,23 @@
+div h1 {
+    margin: 20px;
+    margin-bottom:4%;
+    color: var(--pacific-line-color);
+}
+
+.about-me-content-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    height :40vh;
+    border-radius: 50%;
+    border: 5px;
+    border-color: var(--pacific-line-color);
+    border-style: solid;
+    margin-right: 50px; 
+}
+
+.short-bio p {
+    color: var(--pacific-line-color);
+}
