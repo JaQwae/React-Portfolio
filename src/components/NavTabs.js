@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles.css/Variables.css';
 import '../styles.css/NavTabs.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
