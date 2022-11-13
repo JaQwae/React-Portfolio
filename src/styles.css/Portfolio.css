@@ -1,0 +1,11 @@
+.projectParentContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectChildContainer {
+    flex: 1 1 150px;
+    background-color: black;
+}
