@@ -2,10 +2,44 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .projectChildContainer {
-    flex: 1 1 150px;
+    margin-bottom: 100px;
     background-color: black;
+}
+
+.projectTitle {
+    color: antiquewhite;
+}
+
+.projectLinkSection{
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.deployableButton{
+    background-color: yellow;
+}
+
+.deployableButton a {
+    text-decoration: none;
+    color: black;
+}
+
+.gitHubButton{
+    background-color: blueviolet;
+}
+
+.gitHubButton a {
+    text-decoration: none;
+    color: black;
 }

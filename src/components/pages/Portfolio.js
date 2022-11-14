@@ -11,48 +11,72 @@ export default function Portfolio() {
                     <h5 className="projectTitle">Project Title</h5>
                     <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a className= "deployableLink" href="url">Deployable Link</a>
-                        <a className="gitHubLink" href="url">GitHub Repo</a>
+                        <button className= "deployableButton">
+                            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>Deployable Link</a>
+                        </button>
+                        <button className= "gitHubButton">
+                            <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100" target="_blank" rel='noreferrer'>GitHub Repo</a>
+                        </button>
                     </div>
                 </section>
                 <section className="projectChildContainer">
                     <h5 className="projectTitle">Project Title</h5>
                     <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a className= "deployableLink" href="url">Deployable Link</a>
-                        <a className="gitHubLink" href="url">GitHub Repo</a>
+                        <button className= "deployableButton">
+                            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>Deployable Link</a>
+                        </button>
+                        <button className= "gitHubButton">
+                            <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100" target="_blank" rel='noreferrer'>GitHub Repo</a>
+                        </button>
                     </div>
                 </section>
                 <section className="projectChildContainer">
                     <h5 className="projectTitle">Project Title</h5>
                     <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a className= "deployableLink" href="url">Deployable Link</a>
-                        <a className="gitHubLink" href="url">GitHub Repo</a>
+                        <button className= "deployableButton">
+                            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>Deployable Link</a>
+                        </button>
+                        <button className= "gitHubButton">
+                            <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100" target="_blank" rel='noreferrer'>GitHub Repo</a>
+                        </button>
                     </div>
                 </section>
                 <section className="projectChildContainer">
                     <h5 className="projectTitle">Project Title</h5>
                     <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a className= "deployableLink" href="url">Deployable Link</a>
-                        <a className="gitHubLink" href="url">GitHub Repo</a>
+                        <button className= "deployableButton">
+                            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>Deployable Link</a>
+                        </button>
+                        <button className= "gitHubButton">
+                            <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100" target="_blank" rel='noreferrer'>GitHub Repo</a>
+                        </button>
                     </div>
                 </section>
                 <section className="projectChildContainer">
                     <h5 className="projectTitle">Project Title</h5>
                     <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a className= "deployableLink" href="url">Deployable Link</a>
-                        <a className="gitHubLink" href="url">GitHub Repo</a>
+                        <button className= "deployableButton">
+                            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>Deployable Link</a>
+                        </button>
+                        <button className= "gitHubButton">
+                            <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100" target="_blank" rel='noreferrer'>GitHub Repo</a>
+                        </button>
                     </div>
                 </section>
                 <section className="projectChildContainer">
                     <h5 className="projectTitle">Project Title</h5>
                     <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a className= "deployableLink" href="url">Deployable Link</a>
-                        <a className="gitHubLink" href="url">GitHub Repo</a>
+                        <button className= "deployableButton">
+                            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>Deployable Link</a>
+                        </button>
+                        <button className= "gitHubButton">
+                            <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100" target="_blank" rel='noreferrer'>GitHub Repo</a>
+                        </button>
                     </div>
                 </section>
             </div>
