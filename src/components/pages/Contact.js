@@ -57,6 +57,7 @@ export default function Contact() {
     return (
         <div>
             <h1>Contact</h1>
+        
             <form className="form">
                 <input
                     value={name}
@@ -72,14 +73,14 @@ export default function Contact() {
                     type="email"
                     placeholder="email"
                 />
-                <input
+                <input className='messageInput'
                     value={message}
                     name= "message"
                     onChange = {handleInputChange}
                     type = "text"
                     placeholder="message"
                 />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                <button type="button" className="submitButton" onClick={handleFormSubmit}>Submit</button>
             </form>
             {errorMessage && (
                 <div>

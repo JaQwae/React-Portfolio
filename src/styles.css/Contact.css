@@ -1,10 +1,25 @@
 .form {
-    margin: 20px;
+    background-color: aqua;
+    padding: 80px;
+    width: 50%;
+    margin: auto;
+    border: 10px double #73AD21;
 }
 
 .form input {
     display: block;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     width: 100%;
+    border-radius: 5px;
+    border: 2px solid #73AD21;
+}
+
+.messageInput {
+    height: 100px;
+}
+
+.submitButton {
+    width: 100px;
+    border-radius: 50px;
 }
