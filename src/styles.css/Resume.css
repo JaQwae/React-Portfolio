@@ -1,0 +1,26 @@
+.skill-card-container{
+    margin: 5%;
+    display: flex;
+}
+.skills-card {
+    width: 40%;
+    height: 40%;
+    margin: 10px
+}
+
+.skills-card-header {
+    height: 20%;
+}
+
+.skills-card-list{
+    height: 80%;
+}
+
+.resume-button {
+    height:10%;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
