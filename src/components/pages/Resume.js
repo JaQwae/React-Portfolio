@@ -5,7 +5,7 @@ import "../../styles.css/Resume.css";
 export default function Resume() {
     return (
         <div>
-            <h1>Resume</h1>
+            <h1 className="pageTitle">Resume</h1>
             <a className="resume-link" href="https://www.google.com/" target="_blank" rel='noreferrer'>
                 <button class="resume-button">
                     Download My Resume
