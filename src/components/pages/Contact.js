@@ -47,7 +47,7 @@ export default function Contact() {
             return;
         }
         
-        alert(`Hello ${name}`);
+        alert(`Hello ${name}, your message has been sent!`);
 
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setName('');
@@ -82,6 +82,11 @@ export default function Contact() {
                     placeholder="message"
                 />
                 <button type="button" className="submitButton" onClick={handleFormSubmit}>Submit</button>
+                {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
             </form>
             {errorMessage && (
                 <div>
