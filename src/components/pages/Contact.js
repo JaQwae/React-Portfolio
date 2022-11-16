@@ -83,16 +83,12 @@ export default function Contact() {
                 />
                 <button type="button" className="submitButton" onClick={handleFormSubmit}>Submit</button>
                 {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
             </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+            
         </div>
     );
 }

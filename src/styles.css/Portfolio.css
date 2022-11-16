@@ -14,12 +14,22 @@
     color: antiquewhite;
 }
 
+.projectImages{
+    height: 500px ;
+    width: 550px;
+}
+
 .projectLinkSection{
     height: 100px;
     background-color: black;
     display: flex;
 }
 
+.projectLinkSection a {
+    height: 100%;
+    width: 100%;
+    
+}
 button {
     height: 100%;
     width: 100%;

@@ -6,7 +6,7 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+            <a className="resume-link" href="https://www.google.com/" target="_blank" rel='noreferrer'>
                 <button class="resume-button">
                     Download My Resume
                 </button>
@@ -19,7 +19,7 @@ export default function Resume() {
                     <ul class="list-group list-group-flush skills-card-list">
                         <li class="list-group-item skills-card-list-item">Test 1</li>
                         <li class="list-group-item skills-card-list-item">Test 2</li>
-                        <li class="list-group-item skills-card-list-item">Test3</li>
+                        <li class="list-group-item skills-card-list-item">Test 3</li>
                         <li class="list-group-item skills-card-list-item">Test 4</li>
                         <li class="list-group-item skills-card-list-item">Test 5</li>
                     </ul>
@@ -31,7 +31,7 @@ export default function Resume() {
                     <ul class="list-group list-group-flush skills-card-list">
                         <li class="list-group-item skills-card-list-item">Test 1</li>
                         <li class="list-group-item skills-card-list-item">Test 2</li>
-                        <li class="list-group-item skills-card-list-item">Test3</li>
+                        <li class="list-group-item skills-card-list-item">Test 3</li>
                         <li class="list-group-item skills-card-list-item">Test 4</li>
                         <li class="list-group-item skills-card-list-item">Test 5</li>
                     </ul>
