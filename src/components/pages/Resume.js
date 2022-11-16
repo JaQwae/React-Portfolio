@@ -6,7 +6,11 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <button class="resume-button">Download My Resume</button>
+            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                <button class="resume-button">
+                    Download My Resume
+                </button>
+            </a>
             <div className="skill-card-container">
                 <div class="card skills-card" >
                     <div class="card-header skills-card-header">
