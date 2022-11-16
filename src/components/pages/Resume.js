@@ -17,11 +17,11 @@ export default function Resume() {
                         Front-end Proficiencies
                     </div>
                     <ul class="list-group list-group-flush skills-card-list">
-                        <li class="list-group-item skills-card-list-item">Test 1</li>
-                        <li class="list-group-item skills-card-list-item">Test 2</li>
-                        <li class="list-group-item skills-card-list-item">Test 3</li>
-                        <li class="list-group-item skills-card-list-item">Test 4</li>
-                        <li class="list-group-item skills-card-list-item">Test 5</li>
+                        <li class="list-group-item skills-card-list-item">React.js</li>
+                        <li class="list-group-item skills-card-list-item">JavaScript</li>
+                        <li class="list-group-item skills-card-list-item">APIs</li>
+                        <li class="list-group-item skills-card-list-item">Bootstrap & jQuery</li>
+                        <li class="list-group-item skills-card-list-item">HTML, Advance CSS, & Git</li>
                     </ul>
                 </div>
                 <div class="card skills-card" >
@@ -29,11 +29,11 @@ export default function Resume() {
                         Back-end Proficiencies
                     </div>
                     <ul class="list-group list-group-flush skills-card-list">
-                        <li class="list-group-item skills-card-list-item">Test 1</li>
-                        <li class="list-group-item skills-card-list-item">Test 2</li>
-                        <li class="list-group-item skills-card-list-item">Test 3</li>
-                        <li class="list-group-item skills-card-list-item">Test 4</li>
-                        <li class="list-group-item skills-card-list-item">Test 5</li>
+                        <li class="list-group-item skills-card-list-item">Node.js</li>
+                        <li class="list-group-item skills-card-list-item">SQL</li>
+                        <li class="list-group-item skills-card-list-item">RESTful API</li>
+                        <li class="list-group-item skills-card-list-item">Testing</li>
+                        <li class="list-group-item skills-card-list-item">NoSQL</li>
                     </ul>
                 </div>
                 <div class="card skills-card" >
@@ -41,11 +41,11 @@ export default function Resume() {
                         Soft skills
                     </div>
                     <ul class="list-group list-group-flush skills-card-list">
-                        <li class="list-group-item skills-card-list-item">Test 1</li>
-                        <li class="list-group-item skills-card-list-item">Test 2</li>
-                        <li class="list-group-item skills-card-list-item">Test3</li>
-                        <li class="list-group-item skills-card-list-item">Test 4</li>
-                        <li class="list-group-item skills-card-list-item">Test 5</li>
+                        <li class="list-group-item skills-card-list-item">Critical Thinking</li>
+                        <li class="list-group-item skills-card-list-item">Teamwork</li>
+                        <li class="list-group-item skills-card-list-item">Time Management</li>
+                        <li class="list-group-item skills-card-list-item">Verbal and Written Communication</li>
+                        <li class="list-group-item skills-card-list-item">Adaptability</li>
                     </ul>
                 </div>
             </div>

@@ -8,15 +8,15 @@ export default function Portfolio() {
             <h1>Portfolio</h1>
             <div className = 'projectParentContainer'>
                 <section className="projectChildContainer">
-                    <h5 className="projectTitle">1</h5>
-                    <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
+                    <h5 className="projectTitle">The Legend of Orion</h5>
+                    <img className="projectImages" src="https://github.com/josuepaniagua/Orion/raw/main/assets/screenshots/screenshot1.png" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        <a href="https://josuepaniagua.github.io/Orion/" target="_blank" rel='noreferrer'>
                             <button className="deployableButton">
                                 Deployable Link
                             </button>
                         </a>
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        <a href="https://github.com/josuepaniagua/Orion" target="_blank" rel='noreferrer'>
                             <button className="gitHubButton">
                                 GitHub Repo
                             </button>
@@ -24,15 +24,15 @@ export default function Portfolio() {
                     </div>
                 </section>
                 <section className="projectChildContainer">
-                    <h5 className="projectTitle">2</h5>
-                    <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
+                    <h5 className="projectTitle">Social Network API</h5>
+                    <img className="projectImages" src="https://user-images.githubusercontent.com/91682561/164995464-9faac1f0-fcc1-458c-b344-4003eb603606.png" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        {/* <a href="https://www.google.com/" target="_blank" rel='noreferrer'> */}
                             <button className="deployableButton">
-                                Deployable Link
+                                No Deployable Link Available
                             </button>
-                        </a>
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        {/* </a> */}
+                        <a href="https://github.com/JaQwae/Social-Network-API" target="_blank" rel='noreferrer'>
                             <button className="gitHubButton">
                                 GitHub Repo
                             </button>
@@ -73,15 +73,15 @@ export default function Portfolio() {
                     </div>
                 </section>
                 <section className="projectChildContainer">
-                    <h5 className="projectTitle">Project Title</h5>
-                    <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
+                    <h5 className="projectTitle">E-Commerce Backend</h5>
+                    <img className="projectImages" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR4nDQRHuzmq2qgeRMrvP4rvcOWP1mUsO3BQ&usqp=CAU" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        {/* <a href="https://www.google.com/" target="_blank" rel='noreferrer'> */}
                             <button className="deployableButton">
-                                Deployable Link
+                                No Deployable Link Available
                             </button>
-                        </a>
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        {/* </a> */}
+                        <a href="https://github.com/JaQwae/E-commerce-Back-End" target="_blank" rel='noreferrer'>
                             <button className="gitHubButton">
                                 GitHub Repo
                             </button>
@@ -89,15 +89,15 @@ export default function Portfolio() {
                     </div>
                 </section>
                 <section className="projectChildContainer">
-                    <h5 className="projectTitle">Project Title</h5>
-                    <img className="projectImages" src="https://media.istockphoto.com/id/609802128/photo/open-pantone-sample-colors-catalogue.jpg?b=1&s=170667a&w=0&k=20&c=I7mdRWLGqiojTM0EAM57bXARNCjsJqtmG6gVmpo1y1g=" alt="Test"></img>
+                    <h5 className="projectTitle">Tech Blog</h5>
+                    <img className="projectImages" src="https://github.com/JaQwae/Tech-Blog/raw/main/images/techBlog%20Screenshot.png" alt="Test"></img>
                     <div className="projectLinkSection">
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        <a href="https://radiant-gorge-67933.herokuapp.com/" target="_blank" rel='noreferrer'>
                             <button className="deployableButton">
                                 Deployable Link
                             </button>
                         </a>
-                        <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                        <a href="https://github.com/JaQwae/Tech-Blog" target="_blank" rel='noreferrer'>
                             <button className="gitHubButton">
                                 GitHub Repo
                             </button>
