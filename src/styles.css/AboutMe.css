@@ -1,20 +1,22 @@
-div h1 {
+body {
+    background-color: var(--wheatField-color);
+}
+.pageTitle {
     margin: 20px;
-    margin-bottom:4%;
-    color: var(--pacific-line-color);
+    /* margin-bottom:4%; */
+    color: var(--wheatField-color);
+    font-size: 50px;
 }
 
 .about-me-content-container {
     display: flex;
     align-items: center;
+    margin: 50px;
 }
 
 .profile-image {
     height :40vh;
     border-radius: 50%;
-    border: 5px;
-    border-color: var(--pacific-line-color);
-    border-style: solid;
     margin-right: 50px; 
 }
 

@@ -1,7 +1,8 @@
 /* Effects background */
 div {
-    background-color: var(--rough-stone-color);
-    height: 80vh
+    /* background-color: var(--rough-stone-color); */
+    background-color:var(--stepping-stone-color);
+    /* height: 80vh */
 }
 
 .nav {

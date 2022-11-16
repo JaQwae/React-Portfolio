@@ -6,6 +6,7 @@ function Footer() {
     return (
         <footer className="footer">
             <p> This is my footer</p>
+            <a href="https://www.linkedin.com/in/jaqwae-ellison/" class="fa fa-linkedin"></a>
         </footer>
     );
 }

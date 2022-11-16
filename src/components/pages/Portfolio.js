@@ -4,7 +4,7 @@ import "../../styles.css/Portfolio.css";
 
 export default function Portfolio() {
     return (
-        <div>
+        <div className="portfolioPage">
             <h1>Portfolio</h1>
             <div className = 'projectParentContainer'>
                 <section className="projectChildContainer">
@@ -29,7 +29,7 @@ export default function Portfolio() {
                     <div className="projectLinkSection">
                         {/* <a href="https://www.google.com/" target="_blank" rel='noreferrer'> */}
                             <button className="deployableButton">
-                                No Deployable Link Available
+                                N/A
                             </button>
                         {/* </a> */}
                         <a href="https://github.com/JaQwae/Social-Network-API" target="_blank" rel='noreferrer'>
@@ -78,7 +78,7 @@ export default function Portfolio() {
                     <div className="projectLinkSection">
                         {/* <a href="https://www.google.com/" target="_blank" rel='noreferrer'> */}
                             <button className="deployableButton">
-                                No Deployable Link Available
+                                N/A
                             </button>
                         {/* </a> */}
                         <a href="https://github.com/JaQwae/E-commerce-Back-End" target="_blank" rel='noreferrer'>
