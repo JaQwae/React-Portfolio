@@ -4,13 +4,9 @@ import "../../styles.css/Resume.css";
 
 export default function Resume() {
     return (
-        <div>
+        <div className="resumePage">
             <h1 className="pageTitle">Resume</h1>
-            <a className="resume-link" href="https://www.google.com/" target="_blank" rel='noreferrer'>
-                <button class="resume-button">
-                    Download My Resume
-                </button>
-            </a>
+            
             <div className="skill-card-container">
                 <div class="card skills-card" >
                     <div class="card-header skills-card-header">
@@ -49,6 +45,11 @@ export default function Resume() {
                     </ul>
                 </div>
             </div>
+            <a className="resume-link" href="https://www.google.com/" target="_blank" rel='noreferrer'>
+                <button class="resume-button">
+                    Download My Resume
+                </button>
+            </a>
         </div>
     )
 }
