@@ -21,6 +21,8 @@
 
 .projectTitle {
     color: var(--wheatField-color);
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .projectImages{
@@ -59,6 +61,8 @@ button {
 .projectLinkSection :hover{
     background-image: linear-gradient(200deg, rgba(139,105,77,1) 20%, rgba(232,226,208,1) 76%);
     color: var(--pacific-line-color);
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
 }
 
 
