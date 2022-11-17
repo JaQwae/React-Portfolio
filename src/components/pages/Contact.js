@@ -17,14 +17,26 @@ export default function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-
+        console.log(inputValue)
         // Based on the input type, we set the state of either email, name, and password
         if (inputType === 'name') {
-            setName(inputValue)
+            if (inputValue === '') {
+                setErrorMessage('Must input a name.');
+            } else {
+                setName(inputValue);
+            }
         } else if (inputType === 'email') {
+            if (inputValue === '') {
+                setErrorMessage('Please input a valid email.');
+            } else {
             setEmail(inputValue);
+            }
         } else {
+            if (inputValue === '') {
+                setErrorMessage('Please type a message.');
+            } else {
             setMessage(inputValue);
+            }
         }
     };
 
@@ -53,6 +65,7 @@ export default function Contact() {
         setName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
     };
 
     return (
