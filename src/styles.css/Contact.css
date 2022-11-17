@@ -1,9 +1,18 @@
+.contactPage{
+    height: 80vh;
+}
+
+.contactTitle{
+    margin-bottom: 5rem;
+}
+
 .form {
-    background-color: aqua;
+    background-color: var(--rough-stone-color);
     padding: 40px;
     width: 80%;
     margin: auto;
-    border: 10px double #73AD21;
+    border: 10px double var(--pacific-line-color);
+
 }
 
 .form input {
@@ -12,7 +21,7 @@
     margin-bottom: 20px;
     width: 100%;
     border-radius: 5px;
-    border: 2px solid #73AD21;
+    border: 2px solid var(--pacific-line-color);
 }
 
 .messageInput {
@@ -22,6 +31,12 @@
 .submitButton {
     width: 100px;
     border-radius: 50px;
+    background-image: linear-gradient(180deg, rgba(158,162,173,1) 0%, rgba(43,50,65,1) 88%);
+}
+
+.form :hover {
+    background-image: linear-gradient(200deg, rgba(139,105,77,1) 20%, rgba(232,226,208,1) 76%);
+    color: var(--pacific-line-color);
 }
 
 .form div {

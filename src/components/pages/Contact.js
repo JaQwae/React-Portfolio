@@ -56,8 +56,8 @@ export default function Contact() {
     };
 
     return (
-        <div>
-            <h1 className="pageTitle">Contact</h1>
+        <div className='contactPage'>
+            <h1 className="pageTitle contactTitle">Contact</h1>
         
             <form className="form">
                 <input
