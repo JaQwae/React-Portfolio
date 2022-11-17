@@ -17,7 +17,7 @@ export default function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-        console.log(inputValue)
+        console.log('Value ' + inputValue)
         // Based on the input type, we set the state of either email, name, and password
         if (inputType === 'name') {
             if (inputValue === '') {
