@@ -5,8 +5,9 @@ import '../styles.css/Footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            <p> This is my footer</p>
-            <a href="https://www.linkedin.com/in/jaqwae-ellison/" class="fa fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/jaqwae-ellison/" target="_blank" rel='noreferrer' class="fa fa-linkedin"></a>
+            <a href="https://github.com/JaQwae" target="_blank" rel='noreferrer' class="fa fa-github"></a>
+            <a href="https://www.facebook.com/jaqwae.ellison" target="_blank" rel='noreferrer' class="fa fa-facebook"></a>
         </footer>
     );
 }

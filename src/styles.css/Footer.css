@@ -4,11 +4,28 @@
     bottom: 0;
     width: 100%;
     background-color: var(--pacific-line-color);
-    color: var(--stepping-stone-color);;
+    opacity: 0.8;
     text-align: center;
+}
+
+.fa{
+    padding: 1rem;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 1rem;
 }
 
 .fa-linkedin {
     background: #007bb5;
+    color: white;
+}
+
+.fa-github{
+    background:white ;
+    color: black;
+}
+
+.fa-facebook {
+    background: #3B5998;
     color: white;
 }
