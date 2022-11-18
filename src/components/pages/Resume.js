@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../../styles.css/Resume.css"; 
+import "../../styles.css/Resume.css";
+import resume from '../../resume.pdf' 
 
 export default function Resume() {
     return (
@@ -45,11 +46,12 @@ export default function Resume() {
                     </ul>
                 </div>
             </div>
-            <a className="resume-link" href="https://www.google.com/" target="_blank" rel='noreferrer'>
-                <button className="resume-button">
-                    Download My Resume
-                </button>
-            </a>
+                {/* <a className="resume-link" href="../../resume.pdf" target="_blank" rel='noreferrer'>
+                    <button className="resume-button">
+                        Download My Resume
+                    </button>
+                </a> */}
+                <iframe className='resumeContainer'src={resume} />
         </div>
     )
 }
