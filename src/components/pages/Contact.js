@@ -17,28 +17,37 @@ export default function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-        console.log('Value ' + inputValue)
+        
         // Based on the input type, we set the state of either email, name, and password
+        if (inputType === 'name') {
+            setName(inputValue);
+        } else if (inputType === 'email') {
+            setEmail(inputValue);
+        } else {
+            setMessage(inputValue);
+        }
+    };
+    
+    const handleInputChangeError = (e) => {
+        // Getting the value and name of the input which triggered the change
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
         if (inputType === 'name') {
             if (inputValue === '') {
                 setErrorMessage('Must input a name.');
-            } else {
-                setName(inputValue);
             }
         } else if (inputType === 'email') {
             if (inputValue === '') {
                 setErrorMessage('Please input a valid email.');
-            } else {
-            setEmail(inputValue);
             }
         } else {
             if (inputValue === '') {
                 setErrorMessage('Please type a message.');
-            } else {
-            setMessage(inputValue);
             }
         }
-    };
+    }
 
     const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
@@ -77,6 +86,7 @@ export default function Contact() {
                     value={name}
                     name="name"
                     onChange={handleInputChange}
+                    onBlur={handleInputChangeError}
                     type="text"
                     placeholder="name"
                 />
@@ -84,13 +94,15 @@ export default function Contact() {
                     value={email}
                     name="email"
                     onChange={handleInputChange}
+                    onBlur={handleInputChangeError}
                     type="email"
                     placeholder="email"
                 />
                 <input className='messageInput'
                     value={message}
                     name= "message"
-                    onChange = {handleInputChange}
+                    onChange={handleInputChange}
+                    onBlur={handleInputChangeError}
                     type = "text"
                     placeholder="message"
                 />
