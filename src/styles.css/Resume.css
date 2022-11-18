@@ -1,10 +1,12 @@
 .resumePage{
-    height: 59.5vh;
+    height: 180vh;
 }
 
 .skill-card-container{
     margin: 5%;
     display: flex;
+    border-bottom: 5px solid var(--pacific-line-color);
+    padding: 80px
 }
 .skills-card {
     width: 40%;
@@ -46,5 +48,10 @@
 
 .resume-link {
     text-decoration: none;
+}
 
+iframe {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%
 }
