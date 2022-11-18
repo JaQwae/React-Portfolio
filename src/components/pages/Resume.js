@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../styles.css/Resume.css";
-import resume from '../../resume.pdf' 
+import resume from '../../jaqwae-ellison-tech-resume.pdf'; 
 
 export default function Resume() {
     return (
@@ -51,7 +51,7 @@ export default function Resume() {
                         Download My Resume
                     </button>
                 </a> */}
-                <iframe className='resumeContainer'src={resume} />
+                <iframe className='resumeContainer'src={resume} title="resume" />
         </div>
     )
 }
