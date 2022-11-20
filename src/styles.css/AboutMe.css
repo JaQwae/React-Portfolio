@@ -50,6 +50,10 @@ body {
     .pageTitle {
         text-align: center;
     }
+
+    .profile-image {
+        margin-right: 0%;
+    }
     
     .about-me-content-container {
         display: flex;
