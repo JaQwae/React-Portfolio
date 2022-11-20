@@ -5,8 +5,6 @@ import '../../styles.css/Contact.css';
 
 
 export default function Contact() {
-    // Create state variables for the fields in the form
-    // We are also setting their initial values to an empty string
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
@@ -17,13 +15,23 @@ export default function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-        
+
+
         // Based on the input type, we set the state of either email, name, and password
         if (inputType === 'name') {
+            if (errorMessage) {
+                setErrorMessage('')
+                }
             setName(inputValue);
         } else if (inputType === 'email') {
+            if (errorMessage) {
+                setErrorMessage('')
+                }
             setEmail(inputValue);
         } else {
+            if (errorMessage) {
+                setErrorMessage('')
+                }
             setMessage(inputValue);
         }
     };
@@ -33,14 +41,14 @@ export default function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-
+        
         if (inputType === 'name') {
             if (inputValue === '') {
-                setErrorMessage('Must input a name.');
+                setErrorMessage('Please input a name.');
             }
         } else if (inputType === 'email') {
             if (inputValue === '') {
-                setErrorMessage('Please input a valid email.');
+                setErrorMessage('Please input a valid email address.');
             }
         } else {
             if (inputValue === '') {
@@ -54,17 +62,17 @@ export default function Contact() {
         e.preventDefault();
 
         if (!name) {
-            setErrorMessage('Must input a name.');
+            setErrorMessage('Please input a name.');
             return;
         }
 
         if (!validateEmail(email)) {
-            setErrorMessage('Please input a valid email');
+            setErrorMessage('Please input a valid email address.');
             return;
         } 
 
         if (!message) {
-            setErrorMessage ('Please type a message');
+            setErrorMessage ('Please type a message.');
             return;
         }
         
@@ -79,7 +87,7 @@ export default function Contact() {
 
     return (
         <div className='contactPage'>
-            <h1 className="pageTitle contactTitle">Contact</h1>
+            <h1 className="page-title contactTitle">Contact</h1>
         
             <form className="form">
                 <input

@@ -6,8 +6,7 @@ import "../../styles.css/Resume.css";
 export default function Resume() {
     return (
         <div className="resumePage">
-            <h1 className="pageTitle">Resume</h1>
-            
+            <h1 className="page-title">Resume</h1>
             <div className="skill-card-container">
                 <div className="card skills-card" >
                     <div className="card-header skills-card-header">
@@ -46,12 +45,7 @@ export default function Resume() {
                     </ul>
                 </div>
             </div>
-                {/* <a className="resume-link" href="../../resume.pdf" target="_blank" rel='noreferrer'>
-                    <button className="resume-button">
-                        Download My Resume
-                    </button>
-                </a> */}
-                <iframe className='resumeContainer' src={resume} title="resume" />
+            <iframe className='resumeContainer' src={resume} title="resume" />
         </div>
     )
 }

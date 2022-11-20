@@ -1,7 +1,7 @@
 body {
     background-color: var(--wheatField-color);
 }
-.pageTitle {
+.page-title {
     margin: 20px;
     /* margin-bottom:4%; */
     color: var(--wheatField-color);

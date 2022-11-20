@@ -3,7 +3,7 @@ import '../../styles.css/AboutMe.css'
 export default function AboutMe() {
     return (
         <div>
-            <h1 className="pageTitle">About Me</h1>
+            <h1 className="page-title">About Me</h1>
             <div className="about-me-content-container">
                 <section className="profile-image-container">
                     <img  className = "profile-image" src="https://media-exp1.licdn.com/dms/image/C4E03AQGANkwtitDZeA/profile-displayphoto-shrink_800_800/0/1609799385127?e=2147483647&v=beta&t=x43-vFIz_X-ycyzxV9AuijKjjCWHV_IuJIfErDQzsXY" alt="Profile Placeholder"></img>

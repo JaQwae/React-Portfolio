@@ -5,7 +5,7 @@ import "../../styles.css/Portfolio.css";
 export default function Portfolio() {
     return (
         <div className="portfolioPage">
-            <h1 className="pageTitle portfolioTitle">Portfolio</h1>
+            <h1 className="page-title portfolioTitle">Portfolio</h1>
             <div className = 'projectParentContainer'>
                 <section className="projectChildContainer">
                     <h5 className="projectTitle">The Legend of Orion</h5>
