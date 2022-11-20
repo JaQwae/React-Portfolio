@@ -20,6 +20,26 @@ body {
     margin-right: 50px; 
 }
 
-.short-bio p {
+.about-me-title-primary{
+    font-weight: 900;
+    color: var(--wheatField-color)
+    /* text-decoration: underline; */
+}
+
+.about-me-text {
     color: var(--pacific-line-color);
+    font-size: medium;
+    font-weight: 500;
+}
+
+.about-me-title-secondary{
+    color: var(--wheatField-color);
+    font-size: medium;
+    font-weight: 500;
+}
+
+.about-me-list-items {
+    color: var(--pacific-line-color);
+    font-size: medium;
+    font-weight: 500;
 }
