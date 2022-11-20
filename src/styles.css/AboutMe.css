@@ -43,3 +43,18 @@ body {
     font-size: medium;
     font-weight: 500;
 }
+
+
+
+@media (320px <= width <= 750px) {
+    .pageTitle {
+        text-align: center;
+    }
+    
+    .about-me-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

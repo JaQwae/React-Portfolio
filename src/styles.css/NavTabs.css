@@ -6,6 +6,7 @@ div {
 .nav {
     background-color: var(--pacific-line-color);
     padding: 1.5rem;
+    justify-content: end;
 }
 
 .nav-item a {
@@ -24,4 +25,18 @@ div {
 /*Color after link is clicked and user click on other elements of the page */
 .nav-link.active {
     color: var(--neutral-valley-color);
+}
+
+@media (380px <= width <= 750px) {
+    .nav {
+        justify-content: center;
+        
+    }
+}
+
+/* Where the website breaks */
+@media (max-width: 380px) {
+    div {
+        visibility: hidden;
+    }
 }

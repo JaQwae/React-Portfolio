@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav justify-content-end">
+        <ul className="nav">
             <li className="nav-item">
                 <a
                     href = "#aboutMe"
