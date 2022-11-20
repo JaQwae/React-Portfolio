@@ -65,5 +65,11 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
+@media (460px <= width <= 750px) {
+    .projectParentContainer {
+        justify-content: center;
+    }
+}
+
 
 

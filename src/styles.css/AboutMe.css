@@ -46,7 +46,7 @@ body {
 
 
 
-@media (320px <= width <= 750px) {
+@media (460px <= width <= 750px) {
     .pageTitle {
         text-align: center;
     }
@@ -59,6 +59,4 @@ body {
         display: flex;
         flex-direction: column;
     }
-
-
 }
