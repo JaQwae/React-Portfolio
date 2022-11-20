@@ -10,6 +10,7 @@ export default function Contact() {
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
+    // Activates when input field is clicked on
     const handleInputChange = (e) => {
         // Getting the value and name of the input which triggered the change
         const { target } = e;
@@ -17,7 +18,7 @@ export default function Contact() {
         const inputValue = target.value;
 
 
-        // Based on the input type, we set the state of either email, name, and password
+        // Setting the state of the input type and clearing error messages
         if (inputType === 'name') {
             if (errorMessage) {
                 setErrorMessage('')
@@ -36,8 +37,8 @@ export default function Contact() {
         }
     };
     
+    // Activates when input field is click and left blank.
     const handleInputChangeError = (e) => {
-        // Getting the value and name of the input which triggered the change
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
@@ -45,17 +46,21 @@ export default function Contact() {
         if (inputType === 'name') {
             if (inputValue === '') {
                 setErrorMessage('Please input a name.');
+                return;
             }
         } else if (inputType === 'email') {
             if (inputValue === '') {
                 setErrorMessage('Please input a valid email address.');
+                return;
             }
         } else {
             if (inputValue === '') {
                 setErrorMessage('Please type a message.');
+                return;
             }
         }
     }
+
 
     const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
@@ -78,7 +83,7 @@ export default function Contact() {
         
         alert(`Hello ${name}, your message has been sent!`);
 
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
+        // If everything goes according to plan, we want to clear out the input fields after a successful submission.
         setName('');
         setEmail('');
         setMessage('');
