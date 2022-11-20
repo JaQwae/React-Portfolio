@@ -22,6 +22,7 @@ To run this application, you must complete the following steps:
 
 ## Usage
 
+![portfolio screenshot of about me page](./images/react-portfolio-screenshot.png)
 ### Features:
 
 #### Technologies use:
