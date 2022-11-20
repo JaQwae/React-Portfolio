@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e7ee1951.css",
+    "main.js": "/React-Portfolio/static/js/main.9db0c3c6.js",
+    "static/media/jaqwae-ellison-tech-resume.pdf": "/React-Portfolio/static/media/jaqwae-ellison-tech-resume.f402ce4e14ecb422076d.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.e7ee1951.css.map": "/React-Portfolio/static/css/main.e7ee1951.css.map",
+    "main.9db0c3c6.js.map": "/React-Portfolio/static/js/main.9db0c3c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7ee1951.css",
+    "static/js/main.9db0c3c6.js"
+  ]
+}
