@@ -27,15 +27,20 @@ div {
     color: var(--neutral-valley-color);
 }
 
-@media (380px <= width <= 750px) {
+@media (350px <= width <= 750px) {
+    html{
+        width: 100%;
+    }
+    div{
+        width: 100%;
+    }
     .nav {
         justify-content: center;
-        
     }
 }
 
 /* Where the website breaks */
-@media (max-width: 459px) {
+@media (max-width: 350px) {
     div {
         visibility: hidden;
     }

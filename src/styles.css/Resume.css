@@ -56,20 +56,23 @@ iframe {
     margin-left: 25%
 }
 
-@media (460px <= width <= 750px) {
+@media (350px <= width <= 750px) {
     .resumePage{
         height: 200vh;
     }
     .skill-card-container {
         flex-direction: column;
+        margin: 0;
+        align-items: center;
     }
     .skills-card {
         width: 60vw;
-        justify-content: center;
+        
     }
     iframe{
         height: 26.5%;
         width: 80%;
         margin-left: 11%;
+        align-items: center;
     }
 }
